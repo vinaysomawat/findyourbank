@@ -1,0 +1,37 @@
+.search-bar {
+	padding: 15px;
+	background: white;
+	border-radius: 4px;
+	margin-bottom: 20px;
+
+	.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+		visibility: hidden;
+	}
+
+	.ant-input {
+		font-size: 12px;
+		margin-left: 4px;
+		background: transparent;
+	}
+	.ant-input-affix-wrapper {
+		padding: 4px 11px;
+		border: none;
+		//  background-color: $theme-dark-grey-background;
+	}
+
+	//selector
+
+	.ant-select-selector {
+		font-size: 12px !important;
+		align-items: center;
+		min-width: 110px !important;
+	}
+}
+
+.ant-table-cell {
+  color: black;
+}
+
+.ant-table-content {
+  font-size: 11px;
+}

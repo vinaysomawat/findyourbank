@@ -1,0 +1,28 @@
+.ant-layout-sider {
+    min-height: 100vh;
+    font-weight: 700;
+    background-color: #00d09c !important;
+    position: relative;
+  }
+  
+  .ant-menu-item {
+    background-color: #00d09c !important;
+  }
+  
+  .ant-menu-item-selected {
+   background-color: #5367ff !important;
+  }
+  
+  .ant-menu-inline .ant-menu-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  
+  .ant-menu-title-content a{
+    color: white !important;
+  }
+  
