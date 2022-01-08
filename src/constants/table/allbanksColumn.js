@@ -39,7 +39,7 @@ export const allbanksColumn = ({
     render: (record) => <div>{get(record, 'address')}</div>,
   },
   {
-    title: 'Action',
+    title: 'Add to Favorite',
     key: 'action',
     render: (record) => {
       if (find(get(userData, 'favorites'), record)) {

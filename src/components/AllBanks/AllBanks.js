@@ -82,12 +82,12 @@ const AllBanks = () => {
 	return (
 		<Spin spinning={loading}>
 			<div className="row">
-				<div className="col-3">
+				<div className="col-6">
 					<div className="screen-title">All Banks</div>
 				</div>
-				<div className="col-9">
+				<div className="col-6">
 					<Row className="search-bar">
-						<Col span={18} push={6}>
+						<Col span={12} push={12}>
 							<Row align="end">
 								<Space>
 									<Select
@@ -123,9 +123,9 @@ const AllBanks = () => {
 								</Space>
 							</Row>
 						</Col>
-						<Col span={6} pull={18}>
+						<Col span={12} pull={12}>
 							<Input
-								placeholder="Search on the basis of category selected..."
+								placeholder="Search"
 								allowClear
 								size="large"
 								onChange={(e) => searchBanks(e.target.value)}
