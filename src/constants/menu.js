@@ -7,7 +7,7 @@ const Menu = [
     key: '0',
   },
   {
-    name: 'Favorites',
+    name: 'Favorite Banks',
     route: Routes.FAVORITES,
     key: '0',
   },

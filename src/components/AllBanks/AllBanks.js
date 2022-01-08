@@ -123,7 +123,7 @@ const AllBanks = () => {
 								</Space>
 							</Row>
 						</Col>
-						<Col span={12} pull={12}>
+						<Col span={8} pull={12}>
 							<Input
 								placeholder="Search"
 								allowClear
