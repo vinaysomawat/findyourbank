@@ -67,19 +67,29 @@ const BankDetails = () => {
         </div>
         <Row className="bank_details_row">
           <Col span={8}>
-            <div className="bank_details_label">NAME</div>
+            <div className="bank_details_label">BANK</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'bank_name')}
             </div>
           </Col>
-          <Col span={8}>
+        </Row>
+        <Row className="bank_details_row">
+        <Col span={8}>
             <div className="bank_details_label">BRANCH</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'branch')}
             </div>
           </Col>
+        </Row>
+        <Row className="bank_details_row">
           <Col span={8}>
             <div className="bank_details_label">BANK ID</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'bank_id')}
             </div>
@@ -88,18 +98,28 @@ const BankDetails = () => {
         <Row className="bank_details_row">
           <Col span={8}>
             <div className="bank_details_label">IFSC</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'ifsc')}
             </div>
           </Col>
-          <Col span={8}>
+        </Row>
+        <Row className="bank_details_row">
+        <Col span={8}>
             <div className="bank_details_label">CITY</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'city')}
             </div>
           </Col>
+        </Row>
+        <Row className="bank_details_row">
           <Col span={8}>
             <div className="bank_details_label">DISTRICT</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'district')}
             </div>
@@ -108,12 +128,18 @@ const BankDetails = () => {
         <Row className="bank_details_row">
           <Col span={8}>
             <div className="bank_details_label">STATE</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'state')}
             </div>
           </Col>
+        </Row>
+        <Row className="bank_details_row">
           <Col span={8}>
             <div className="bank_details_label">ADDRESS</div>
+          </Col>
+          <Col span={8}>
             <div className="bank_details_value">
               {get(currentBankObject, 'address')}
             </div>

@@ -7,7 +7,7 @@ export async function getAllBanksData(city) {
     return JSON.parse(myLocalStorage.getItem(city));
   } else {
     const url = BASE_URL + `?city=${city}`;
-    // return await fetch(url).then((result) => result.json());
-    return allbanks_dummyData;
+    return await fetch(url).then((result) => result.json());
+    // return allbanks_dummyData;
   }
 }

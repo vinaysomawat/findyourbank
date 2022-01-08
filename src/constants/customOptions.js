@@ -8,7 +8,8 @@ export const categories = [
 
 export const cities = [
   { label: 'Mumbai', value: 'MUMBAI' },
-  { label: 'Pune', value: 'PUNE' },
-  { label: 'Hyderabad', value: 'HYDERABAD' },
+  { label: 'Jaipur', value: 'JAIPUR' },
+  { label: 'Jodhpur', value: 'JODHPUR' },
+  { label: 'Indore', value: 'INDORE' },
   { label: 'Agra', value: 'AGRA' },
 ];
